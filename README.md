@@ -60,7 +60,7 @@ It will take some time, maybe half an hour, and it promts you sometimes for user
   $ sudo sh ./runAstroprint
 </pre>
 
-* Find your ip with ifconfig and loking for the wlan0 interface IP.
+* Find your ip with ifconfig and loking for your connected interface ip.
 
 ### Go to your browser with your IP and enjoy Astrobox on your Orange Pi Zero.
 
