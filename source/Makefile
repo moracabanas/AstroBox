@@ -22,8 +22,8 @@ copy-files:
 	cp -rf etc-astrobox/astrobox /etc
 	cp -rf AstroBox /
 	cp -rf pi /home
-	cp -rf pi/tools/etc/dhcp/dhcpd.conf
-	cp -rf pi/tools/etc/network/interfaces
+	cp -rf pi/tools/etc/dhcp/dhcpd.conf /etc/dhcp/dhcpd.conf
+	cp -rf pi/tools/etc/network/interfaces /etc/network/interfaces 
 
 set-configs:
 	./setConfigs
