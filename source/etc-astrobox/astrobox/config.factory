@@ -10,7 +10,7 @@ folder:
   watched: /AstroBoxFiles/watched
   logs: /var/log/astrobox
 wifi:
-   hotspotDevice: wlan0
+   hotspotDevice: wlan1
 system:
   actions:
   - action: shutdown
