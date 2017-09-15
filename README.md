@@ -42,7 +42,7 @@ $ reboot
 * Log-in with your user.
 
 * Connect to your network, with ethernet cable or use:
-<pre> * $ nmtui </pre> and follow the easy interface.
+<pre> $ nmtui </pre> and follow the easy interface.
 
 * Download the source code.
 
