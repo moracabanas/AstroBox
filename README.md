@@ -47,7 +47,7 @@ $ reboot
 * Download the source code.
 
   <pre>
-    git clone https://github.com/moracabanas/AstroBox.git -b orange-pi-zero-port && cd AstroBox/source && sudo make
+    git clone https://github.com/moracabanas/AstroBox.git -b orange-pi-zero-port && cd AstroBox/source && sudo -H make
   </pre>
 
 After the download the Installation script will install all the dependencies and source files):
