@@ -52,6 +52,7 @@ Execute the Installation script (It will install all the dependencies and source
 ### Execute Makefile
 
 <pre>
+  $ cd AstroBox/source
   $ sudo make
 </pre>
   It will take some time, maybe half an hour.
