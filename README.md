@@ -20,17 +20,16 @@ Installation instructions
 
 * Download a Armbian 5.30 bootable image using the image from [Armbian](https://dl.armbian.com/orangepizero/Ubuntu_xenial_default.7z)
 
-* Make a SD card bootable with Etcher [Etcher](https://etcher.io/)
+* Make a SD card bootable with [Etcher](https://etcher.io/)
 
 * Connect your Orange Pi Zero to your PC, wait a minute. A new device will be found just look for the COM port and take note. (On Windows you can use Device Manager).
 
 * Use your preferred SSH App to access the found COM port which gives you instant command line to your Orange Pi. I Use [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) on Windows.
 
-* Once on the Armbian command line log-in as:
-  <pre> 
+* Once on the Armbian command line log-in as: <pre> 
     User:     root 
     Password: 1234
-  </pre>
+    </pre>
 
 * Create your user account, Armbian will ask you as soon as you log-in.
 
