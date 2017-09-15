@@ -36,9 +36,18 @@ Installation instructions
 
 * Reboot to resize file system as indicated.
 
+<pre>
 $ reboot
+</pre>
 
 * Log-in with your user.
+
+* Connect to your network, with ethernet cable or use:
+<pre> * $ nmtui </pre> and follow the easy interface:
+
+<pre>
+  $ sudo nmtui
+</pre>
 
 * Download the source code.
 
@@ -61,12 +70,6 @@ Execute the Installation script (It will install all the dependencies and source
 
 <pre>
   $ sudo sh ./runAstroprint
-</pre>
-
-* Connect to your network, use nmtui and follow the easy interface:
-
-<pre>
-  $ sudo nmtui
 </pre>
 
 * Find your ip with ifconfig and loking for the wlan0 interface IP.
