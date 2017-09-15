@@ -3,7 +3,7 @@ AstroBox Software - Orange Pi Zero Port
 
 The AstroBox software provides a responsive web interface for controlling a 3D printer (RepRap, Ultimaker, ...) and connecting to the AstroPrint cloud for easy 3D Printing anywhere. It is Free Software and released under the [GNU Affero General Public License V3](http://www.gnu.org/licenses/agpl.html).
 
-This project started as a branched fork of [AstroBox](https://github.com/AstroPrint/AstroBox). Many thanks to Astroprint Team and all the great contributors there that made the AstroBox software possible.
+This Orange Pi Zero port project started as a branched fork of [AstroBox](https://github.com/AstroPrint/AstroBox). Many thanks to Astroprint Team and all the great contributors there that made the AstroBox software possible.
 
 Its website can be found at [astroprint.com](https://www.astroprint.com).
 
@@ -34,20 +34,20 @@ Installation instructions
 
 * Create your user account, Armbian will ask you as soon as you log-in.
 
-* Download the source code to your user directory (or any other place)
+* Reboot to resize file system as indicated.
+
+$ reboot
+
+* Log-in with your user.
+
+* Download the source code.
 
   <pre>
-    git clone https://github.com/moracabanas/AstroBox.git
+    git clone https://github.com/moracabanas/AstroBox.git -b orange-pi-zero-port
   </pre>
 
 Execute the Installation script (It will install all the dependencies and source files):
 -------
-
-### First make sure you are on the "source" folder. I you dowloaded it at / just:
-
-<pre>
-  $ cd /Astrobox/source
-</pre>
   
 ### Execute Makefile
 
