@@ -52,19 +52,12 @@ $ reboot
 * Download the source code.
 
   <pre>
-    git clone https://github.com/moracabanas/AstroBox.git -b orange-pi-zero-port
+    git clone https://github.com/moracabanas/AstroBox.git -b orange-pi-zero-port && cd AstroBox/source && sudo make
   </pre>
 
-Execute the Installation script (It will install all the dependencies and source files):
--------
-  
-### Execute Makefile
+After the download the Installation script will install all the dependencies and source files):
 
-<pre>
-  $ cd AstroBox/source
-  $ sudo make
-</pre>
-  It will take some time, maybe half an hour.
+It will take some time, maybe half an hour, and it promts you sometimes for user confirmation. Be patient :D
 
 ### Execute Astroprint for the first time
 
