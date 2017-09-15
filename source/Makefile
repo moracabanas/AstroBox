@@ -1,6 +1,6 @@
 .SILENT:
 
-all: upgrade-system install-deps copy-files set-configs
+all: upgrade-system install-deps copy-files
 
 upgrade-system:
 	echo "Adding Astroprint PPA"
@@ -22,7 +22,3 @@ copy-files:
 	cp -rf etc-astrobox/astrobox /etc
 	cp -rf AstroBox /
 	cp -rf pi /home 
-
-set-configs:
-	chmod a+x setConfigs
-	./setConfigs
