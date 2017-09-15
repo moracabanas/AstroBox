@@ -25,16 +25,16 @@ if [ ! -f /etc/default/isc-dhcp-server.bak ]; then
   cp /etc/default/isc-dhcp-server /etc/default/isc-dhcp-server.bak
 fi
 sed -i /etc/default/isc-dhcp-server \
-  -e "/INTERFACES=/c INTERFACES=wlan1"
+  -e "/INTERFACES=/c INTERFACES=wlan0"
 
 if [ ! -f /etc/dhcp/dhcp.conf.bak ]; then
   cp /etc/dhcp/dhcpd.conf /etc/dhcp/dhcpd.conf.bak
 fi
 
-cp etc/dhcp/dhcpd.conf /etc/dhcp/dhcpd.conf
+cp -rf pi/tools/etc/dhcp/dhcpd.conf /etc/dhcp/dhcpd.conf
 
 echo "Configuring interfaces to use Network Manager"
 if [ ! -f /etc/network/interfaces.bak ]; then
   mv /etc/network/interfaces /etc/network/interfaces.bak
 fi
-cp etc/network/interfaces /etc/network/interfaces
+cp -rf pi/tools/etc/network/interfaces /etc/network/interfaces

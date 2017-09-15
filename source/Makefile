@@ -21,9 +21,8 @@ install-deps:
 copy-files:
 	cp -rf etc-astrobox/astrobox /etc
 	cp -rf AstroBox /
-	cp -rf pi /home
-	cp -rf pi/tools/etc/dhcp/dhcpd.conf /etc/dhcp/dhcpd.conf
-	cp -rf pi/tools/etc/network/interfaces /etc/network/interfaces 
+	cp -rf pi /home 
 
 set-configs:
+	chmod a+x setConfigs
 	./setConfigs
